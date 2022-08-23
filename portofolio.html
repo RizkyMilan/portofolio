@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <style>
+      #navbar {
+        display: flex;
+        background-color: white;
+        color: black;
+        position: sticky;
+        justify-content: space-between;
+      }
+
+      #navbar div div {
+        padding: 12px 24px;
+        text-align: center;
+        font-size: 15px;
+        font-family: sans-serif;
+        cursor: pointer;
+      }
+
+      #navbar div div:hover {
+        background-color: #cccccc;
+      }
+
+      #content-tengah {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .kotak1 {
+        border: 1px solid;
+      }
+      .kotak2 {
+        border: 2px solid;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      }
+      .a {
+        border: 1px solid black;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../day-3/style.css"
+  </head>
+
+  <body>
+    <div id="navbar">
+      <div style="display: flex">
+        <div>HOME</div>
+        <div>ABOUTME</div>
+        <div>My Experience</div>
+        <div>CONTACT</div>
+        <div id="Hire Me">
+          Hire Me
+          <i class="fa fa-caret-down" style="color: white"> </i>
+        </div>
+      </div>
+    </div>
+
+    <div id="content-tengah">
+      <!-- <div class="head">Hello I Am Rizky</div>
+        <div class="head">Web Developer</div>
+        <div class="body"><img src="../day-3/assets/milan.png" width="20%" height="20%"></div> */
+        /* <div class="textcontent"> saya seorang developer baru dan ilmu web developer saya dapatkan dari belajar di bootcamp purwadhika </div> -->
+      <div class="kotak1">satu</div>
+      <div class="kotak2">
+        <div class="a">1</div>
+        <div class="a">2</div>
+        <div class="a">3</div>
+        <div class="a">4</div>
+        <div class="a">5</div>
+      </div>
+    </div>
+    >
+  </body>
+</html>
